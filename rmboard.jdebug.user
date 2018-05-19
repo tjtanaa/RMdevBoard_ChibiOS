@@ -1,0 +1,18 @@
+OpenWindow="Memory Content1", DockArea=BOTTOM, x=2, y=0, w=1158, h=392, FilterBarShown=0, 
+OpenWindow="Call Stack", DockArea=BOTTOM, x=2, y=0, w=1158, h=392, FilterBarShown=0, 
+OpenWindow="Watched Data", DockArea=BOTTOM, x=2, y=0, w=1158, h=392, FilterBarShown=0, 
+OpenWindow="Registers", DockArea=RIGHT, x=0, y=0, w=566, h=1220, FilterBarShown=0, 
+OpenWindow="Global Data", DockArea=RIGHT, x=0, y=0, w=566, h=1220, FilterBarShown=1, 
+OpenWindow="Memory Usage", DockArea=RIGHT, x=0, y=0, w=566, h=1220, FilterBarShown=0, 
+OpenWindow="Console", DockArea=BOTTOM, x=1, y=0, w=930, h=418, FilterBarShown=0, 
+OpenWindow="Functions", DockArea=LEFT, x=0, y=1, w=414, h=661, FilterBarShown=1, 
+OpenWindow="Code Profile", DockArea=LEFT, x=0, y=0, w=414, h=579, FilterBarShown=1, 
+OpenWindow="J-Link Control Panel", DockArea=BOTTOM, x=0, y=0, w=1025, h=418, FilterBarShown=0, 
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=566, h=1220, FilterBarShown=0, ExecCountersShown=0
+OpenToolbar="Debug", Floating=0, x=0, y=0
+TableHeader="Call Stack", SortCol="Function", SortOrder="ASCENDING", VisibleCols=["Function";"Stack Info";"Source"], ColWidths=[160;107;891]
+TableHeader="Watched Data", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Size";"Refresh";"Type";"Scope"], ColWidths=[238;84;95;48;67;205;85]
+TableHeader="Registers", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Description"], ColWidths=[170;143;427]
+TableHeader="Global Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Scope"], ColWidths=[165;144;144;66;220;355]
+TableHeader="Functions", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Source"], ColWidths=[81;102;66;81;379]
+TableHeader="Code Profile", SortCol="File / Function", SortOrder="ASCENDING", VisibleCols=["Source Coverage";"File / Function";"Inst. Coverage";"Run Count";"Fetch Count";"Load"], ColWidths=[188;157;195;125;139;156]

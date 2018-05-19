@@ -22,7 +22,7 @@
 #define GIMBAL_MAX_SPEED_YAW        4.0f
 
 #define GIMBAL_CAN  &CAND1
-#define GIMBAL_CAN_EID  0x1FF
+#define GIMBAL_CAN_SID  0x1FF
 
 #define GIMBAL_YAW_GEAR 0.533f
 
